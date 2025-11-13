@@ -1,0 +1,16 @@
+# Nuxt Docs Template
+
+> A template for building documentation with Nuxt UI and Nuxt Content.
+
+## Documentation Sets
+
+- [Nuxt Docs Template - Full Documentation](https://docs-template.nuxt.dev//llms-full.txt): This is the full documentation for the Nuxt Docs Template.
+
+## Getting Started
+
+- [Introduction](https://docs-template.nuxt.dev/getting-started): Mass Spectometry File Coverter.
+- [Installation](https://docs-template.nuxt.dev/getting-started/installation): Get started with Nuxt UI documentation template.
+- [Usage](https://docs-template.nuxt.dev/getting-started/usage): Learn how to write and customize your documentation.
+
+## Essentials
+
