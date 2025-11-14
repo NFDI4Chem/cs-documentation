@@ -1,22 +1,38 @@
 export default defineAppConfig({
+  // Main Nuxt UI theme configuration
   ui: {
+    // Color palette - primary and neutral/gray colors
     colors: {
       primary: 'cyan',
-      neutral: 'slate'
+      neutral: 'slate'  // or 'gray' for default gray
     },
-    colorMode: {
-      preference: 'light'
-    },
-    footer: {
-      slots: {
-        root: 'border-t border-default',
-        left: 'text-sm text-muted'
-      }
+    
+    // Component-specific color mode (usually not needed)
+    // colorMode: {} 
+  },
+
+  // ✅ GLOBAL COLOR MODE - This is what controls the default
+  colorMode: {
+    preference: 'light',  // Set default to light mode
+    fallback: 'light',     // Fallback if system preference fails
+    classSuffix: '',       // Use 'dark' instead of 'dark-mode'
+    storageKey: 'nuxt-color-mode' // LocalStorage key
+  },
+
+  // Footer styling
+  footer: {
+    slots: {
+      root: 'border-t border-default',
+      left: 'text-sm text-muted'
     }
   },
+
+  // SEO configuration
   seo: {
     siteName: 'NFDI4Chem CS-MS-Converter'
   },
+
+  // Header configuration
   header: {
     title: '',
     to: '/',
@@ -26,7 +42,7 @@ export default defineAppConfig({
       dark: ''
     },
     search: true,
-    colorMode: true,
+    colorMode: true,  // This enables the toggle button
     links: [{
       'icon': 'i-simple-icons-github',
       'to': 'https://github.com/NFDI4Chem/cs-ms-converter',
@@ -34,14 +50,16 @@ export default defineAppConfig({
       'aria-label': 'GitHub'
     }]
   },
+
+  // Footer content
   footer: {
     credits: `Funded By DFG under NFDI4Chem (Project Number: 441958208)`,
-    colorMode: false,
+    colorMode: false,  // Hide footer color mode toggle if you want
     links: [{
       'to': 'https://webconverter.nfdi4chem.zih.tu-dresden.de/privacy_policy',
       'target': '_blank',
       'label': 'Privacy Policy'
-    },{
+    }, {
       'to': 'https://www.nfdi4chem.de/imprint/',
       'target': '_blank',
       'label': 'Impressum'
