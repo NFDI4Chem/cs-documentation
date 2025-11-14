@@ -6,8 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/content',
     'nuxt-og-image',
-    'nuxt-llms',
-    '@nuxtjs/tailwindcss'
+    'nuxt-llms'
   ],
 
   devtools: {
