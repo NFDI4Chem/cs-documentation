@@ -29,7 +29,17 @@ export default defineNuxtConfig({
   // ⭐ ADD THIS - Critical for GitHub Pages subdirectory
   app: {
     baseURL: '/cs-documentation/',  // Must match your repo name
-    buildAssetsDir: 'assets',       // Avoid Jekyll conflicts
+    buildAssetsDir: 'assets',
+     // Add this to configure favicon
+    head: {
+      link: [
+        { 
+          rel: 'icon', 
+          type: 'image/x-icon', 
+          href: '/favicon_nfdi4chem.ico'  // Nuxt will auto-prefix with baseURL
+        }
+      ]
+    }// Avoid Jekyll conflicts
   },
 
   nitro: {
