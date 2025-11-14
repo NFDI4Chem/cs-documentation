@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
@@ -27,15 +26,25 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2024-07-11',
 
+  // ⭐ ADD THIS - Critical for GitHub Pages subdirectory
+  app: {
+    baseURL: '/cs-documentation/',  // Must match your repo name
+    buildAssetsDir: 'assets',       // Avoid Jekyll conflicts
+  },
+
   nitro: {
-    preset: 'github_pages', // ⭐ ADD THIS LINE - automatically handles baseURL
+    preset: 'github_pages',
     prerender: {
-      routes: [
-        '/'
-      ],
+      routes: ['/'],
       crawlLinks: true,
       autoSubfolderIndex: false
     }
+  },
+
+  postcss: {
+    plugins: {
+      '@tailwindcss/postcss': {},
+    },
   },
 
   eslint: {
