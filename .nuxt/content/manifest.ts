@@ -1,6 +1,6 @@
 export const checksums = {
   "landing": "v3.5.0--_4cfgeL2YFJUxMCec_kkopjXq2-Xk1CGxGSeVbXtQ9c",
-  "docs": "v3.5.0--kqd0Fvs6V4rqCYqlfB0md220uhM5cakMxlSzL9ddB94"
+  "docs": "v3.5.0--K14y9-HZptwJv4rpT9jOc4lr893uJP6oqSHPubBBv50"
 }
 export const checksumsStructure = {
   "landing": "tZyOKbtBW1Y6jgOgyl3rm-ghuJUJsbLCHIgBPzIXDfk",

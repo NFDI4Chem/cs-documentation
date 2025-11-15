@@ -20,13 +20,13 @@ export default defineAppConfig({
   },
 
   // Footer styling
-  footer: {
+/*  footer: {
     slots: {
       root: 'border-t border-default',
       left: 'text-sm text-muted'
     }
   },
-
+*/
   // SEO configuration
   seo: {
     siteName: 'NFDI4Chem CS-MS-Converter'
@@ -42,7 +42,7 @@ export default defineAppConfig({
       dark: ''
     },
     search: true,
-    colorMode: true,  // This enables the toggle button
+    colorMode: true,
     links: [{
       'icon': 'i-simple-icons-github',
       'to': 'https://github.com/NFDI4Chem/cs-ms-converter',
@@ -54,7 +54,7 @@ export default defineAppConfig({
   // Footer content
   footer: {
     credits: `Funded By DFG under NFDI4Chem (Project Number: 441958208)`,
-    colorMode: false,  // Hide footer color mode toggle if you want
+    colorMode: false,
     links: [{
       'to': 'https://webconverter.nfdi4chem.zih.tu-dresden.de/privacy_policy',
       'target': '_blank',

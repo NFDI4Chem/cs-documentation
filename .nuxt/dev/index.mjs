@@ -619,12 +619,13 @@ const appConfig0 = defineAppConfig({
     // LocalStorage key
   },
   // Footer styling
-  footer: {
-    slots: {
-      root: "border-t border-default",
-      left: "text-sm text-muted"
-    }
-  },
+  /*  footer: {
+      slots: {
+        root: 'border-t border-default',
+        left: 'text-sm text-muted'
+      }
+    },
+  */
   // SEO configuration
   seo: {
     siteName: "NFDI4Chem CS-MS-Converter"
@@ -640,7 +641,6 @@ const appConfig0 = defineAppConfig({
     },
     search: true,
     colorMode: true,
-    // This enables the toggle button
     links: [{
       "icon": "i-simple-icons-github",
       "to": "https://github.com/NFDI4Chem/cs-ms-converter",
@@ -652,7 +652,6 @@ const appConfig0 = defineAppConfig({
   footer: {
     credits: `Funded By DFG under NFDI4Chem (Project Number: 441958208)`,
     colorMode: false,
-    // Hide footer color mode toggle if you want
     links: [{
       "to": "https://webconverter.nfdi4chem.zih.tu-dresden.de/privacy_policy",
       "target": "_blank",
@@ -1157,9 +1156,9 @@ const _inlineRuntimeConfig = {
     "strictNuxtContentPaths": "",
     "isNuxtContentDocumentDriven": false,
     "componentDirs": [
-      "OgImage",
+      "OgImageTemplate",
       "og-image",
-      "OgImageTemplate"
+      "OgImage"
     ]
   },
   "ipx": {
@@ -1894,7 +1893,7 @@ const _Y26X8PoEWXe71kbudUfT5jBoHgnmEyl3_xRvOL3Ug = (function(nitro) {
 
 const checksums = {
   "landing": "v3.5.0--_4cfgeL2YFJUxMCec_kkopjXq2-Xk1CGxGSeVbXtQ9c",
-  "docs": "v3.5.0--kqd0Fvs6V4rqCYqlfB0md220uhM5cakMxlSzL9ddB94"
+  "docs": "v3.5.0--K14y9-HZptwJv4rpT9jOc4lr893uJP6oqSHPubBBv50"
 };
 const checksumsStructure = {
   "landing": "tZyOKbtBW1Y6jgOgyl3rm-ghuJUJsbLCHIgBPzIXDfk",
@@ -3087,7 +3086,7 @@ const _FSqTwVfbQkuu6I05kEMp3FRmEaG2Lk3YxQF1VdjEZUQ = defineNitroPlugin(async (ni
 
 const rootDir = "/home/lincoln/Desktop/NFDI4Chem/nfdi4chem_nuxt_cs_documentation/nuxt-app-15-11-2025/cs-documentation";
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[{"rel":"icon","type":"image/x-icon","href":"/favicon_nfdi4chem.ico"}],"style":[],"script":[],"noscript":[]};
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[{"rel":"icon","type":"image/x-icon","href":"favicon_nfdi4chem.ico"}],"style":[],"script":[],"noscript":[]};
 
 const appRootTag = "div";
 
