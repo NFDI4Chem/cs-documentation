@@ -18,6 +18,12 @@ declare module "nitropack/types" {
     '/__og-image__/font/**': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/nuxt-og-image@5.1.12_@unhead+vue@2.0.19_vue@3.5.24_typescript@5.9.3___h3@1.15.4_magicas_ebf520fb26b729213f3bd123e61ddf8a/node_modules/nuxt-og-image/dist/runtime/server/routes/font').default>>>>
     }
+    '/__site-config__/debug.json': {
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/nuxt-site-config@3.2.11_h3@1.15.4_magicast@0.5.1_vue@3.5.24_typescript@5.9.3_/node_modules/nuxt-site-config/dist/runtime/server/routes/__site-config__/debug').default>>>>
+    }
+    '/__og-image__/debug.json': {
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/nuxt-og-image@5.1.12_@unhead+vue@2.0.19_vue@3.5.24_typescript@5.9.3___h3@1.15.4_magicas_ebf520fb26b729213f3bd123e61ddf8a/node_modules/nuxt-og-image/dist/runtime/server/routes/debug.json').default>>>>
+    }
     '/__og-image__/image/**': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/nuxt-og-image@5.1.12_@unhead+vue@2.0.19_vue@3.5.24_typescript@5.9.3___h3@1.15.4_magicas_ebf520fb26b729213f3bd123e61ddf8a/node_modules/nuxt-og-image/dist/runtime/server/routes/image').default>>>>
     }
@@ -35,6 +41,9 @@ declare module "nitropack/types" {
     }
     '/__nuxt_content/:collection/query': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/@nuxt+content@3.8.2_better-sqlite3@12.4.1_magicast@0.5.1/node_modules/@nuxt/content/dist/runtime/api/query.post').default>>>>
+    }
+    '/_ipx/**': {
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/.pnpm/@nuxt+image@1.11.0_db0@0.3.4_better-sqlite3@12.4.1__ioredis@5.8.2_magicast@0.5.1/node_modules/@nuxt/image/dist/runtime/ipx').default>>>>
     }
   }
 }

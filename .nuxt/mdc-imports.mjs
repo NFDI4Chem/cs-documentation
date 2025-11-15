@@ -1,5 +1,5 @@
 import _RemarkEmoji from 'remark-emoji'
-import _Highlight from '/home/lincoln/Desktop/NFDI4Chem/nfdi4chem_nuxt_cs_documentation/cs-ms-documentation/cs-documentation/node_modules/.pnpm/@nuxtjs+mdc@0.18.3_magicast@0.5.1/node_modules/@nuxtjs/mdc/dist/runtime/highlighter/rehype-nuxt.js'
+import _Highlight from '/home/lincoln/Desktop/NFDI4Chem/nfdi4chem_nuxt_cs_documentation/nuxt-app-15-11-2025/cs-documentation/node_modules/.pnpm/@nuxtjs+mdc@0.18.3_magicast@0.5.1/node_modules/@nuxtjs/mdc/dist/runtime/highlighter/rehype-nuxt.js'
 
 export const remarkPlugins = {
   'remark-emoji': { instance: _RemarkEmoji },

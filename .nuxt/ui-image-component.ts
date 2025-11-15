@@ -1,1 +1,1 @@
-export { default } from "/home/lincoln/Desktop/NFDI4Chem/nfdi4chem_nuxt_cs_documentation/cs-ms-documentation/cs-documentation/node_modules/.pnpm/@nuxt+image@1.11.0_db0@0.3.4_better-sqlite3@12.4.1__ioredis@5.8.2_magicast@0.5.1/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue";
+export { default } from "/home/lincoln/Desktop/NFDI4Chem/nfdi4chem_nuxt_cs_documentation/nuxt-app-15-11-2025/cs-documentation/node_modules/.pnpm/@nuxt+image@1.11.0_db0@0.3.4_better-sqlite3@12.4.1__ioredis@5.8.2_magicast@0.5.1/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue";

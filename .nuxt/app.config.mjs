@@ -265,6 +265,6 @@ if (import.meta.dev && !import.meta.nitro && import.meta.hot) {
 }
 /** client-end **/
 
-import cfg0 from "/home/lincoln/Desktop/NFDI4Chem/nfdi4chem_nuxt_cs_documentation/cs-ms-documentation/cs-documentation/app/app.config.ts"
+import cfg0 from "/home/lincoln/Desktop/NFDI4Chem/nfdi4chem_nuxt_cs_documentation/nuxt-app-15-11-2025/cs-documentation/app/app.config.ts"
 
 export default /*@__PURE__*/ defuFn(cfg0, inlineConfig)

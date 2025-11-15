@@ -1,7 +1,7 @@
 
 /// <reference path="app.config.d.ts" />
 /// <reference path="runtime-config.d.ts" />
-/// <reference types="/home/lincoln/Desktop/NFDI4Chem/nfdi4chem_nuxt_cs_documentation/cs-ms-documentation/cs-documentation/node_modules/.pnpm/@nuxt+nitro-server@4.2.1_better-sqlite3@12.4.1_db0@0.3.4_better-sqlite3@12.4.1__ioredis_86eda3dffe22d26bf34716d75910b06d/node_modules/@nuxt/nitro-server/dist/index.mjs" />
+/// <reference types="/home/lincoln/Desktop/NFDI4Chem/nfdi4chem_nuxt_cs_documentation/nuxt-app-15-11-2025/cs-documentation/node_modules/.pnpm/@nuxt+nitro-server@4.2.1_better-sqlite3@12.4.1_db0@0.3.4_better-sqlite3@12.4.1__ioredis_86eda3dffe22d26bf34716d75910b06d/node_modules/@nuxt/nitro-server/dist/index.mjs" />
 /// <reference path="../module/nuxt-site-config.d.ts" />
 /// <reference path="../module/nuxt-og-image.d.ts" />
 /// <reference path="nitro-middleware.d.ts" />

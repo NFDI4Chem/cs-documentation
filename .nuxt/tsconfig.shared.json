@@ -55,14 +55,11 @@
       "vite/client": [
         "../node_modules/.pnpm/vite@7.2.2_@types+node@24.10.1_jiti@2.6.1_lightningcss@1.30.2_terser@5.44.1_yaml@2.8.1/node_modules/vite/client"
       ],
-      "@nuxtjs/mdc": [
-        "../node_modules/.pnpm/@nuxtjs+mdc@0.18.3_magicast@0.5.1/node_modules/@nuxtjs/mdc"
-      ],
       "#content/components": [
-        "./content/components.ts"
+        "./content/components"
       ],
       "#content/manifest": [
-        "./content/manifest.ts"
+        "./content/manifest"
       ],
       "~": [
         "../app"
@@ -146,16 +143,16 @@
         "./imports"
       ],
       "#mdc-configs": [
-        "./mdc-configs.mjs"
+        "./mdc-configs"
       ],
       "#mdc-highlighter": [
-        "./mdc-highlighter.mjs"
+        "./mdc-highlighter"
       ],
       "#mdc-imports": [
-        "./mdc-imports.mjs"
+        "./mdc-imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/9726dc07-ca87-4f00-9638-7078e88ee59d.json"
+        "./manifest/meta/dev.json"
       ],
       "#build": [
         "."
