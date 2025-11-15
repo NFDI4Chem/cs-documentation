@@ -15,7 +15,7 @@
       checked: true,
       type: 'checkbox'
     }, {
-      label: 'Open-API',
+      label: 'API',
       to: 'https://converterapi.nfdi4chem.zih.tu-dresden.de/api'
     }, {
       label: 'Contact',
