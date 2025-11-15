@@ -1156,9 +1156,9 @@ const _inlineRuntimeConfig = {
     "strictNuxtContentPaths": "",
     "isNuxtContentDocumentDriven": false,
     "componentDirs": [
-      "OgImageTemplate",
+      "OgImage",
       "og-image",
-      "OgImage"
+      "OgImageTemplate"
     ]
   },
   "ipx": {
@@ -1893,7 +1893,7 @@ const _Y26X8PoEWXe71kbudUfT5jBoHgnmEyl3_xRvOL3Ug = (function(nitro) {
 
 const checksums = {
   "landing": "v3.5.0--_4cfgeL2YFJUxMCec_kkopjXq2-Xk1CGxGSeVbXtQ9c",
-  "docs": "v3.5.0--K14y9-HZptwJv4rpT9jOc4lr893uJP6oqSHPubBBv50"
+  "docs": "v3.5.0--ajQkxQUcjYUsKjLG7jwBYDv0UbpkGuY7EvtWaNsgU-c"
 };
 const checksumsStructure = {
   "landing": "tZyOKbtBW1Y6jgOgyl3rm-ghuJUJsbLCHIgBPzIXDfk",
